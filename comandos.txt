@@ -1,0 +1,25 @@
+    1  cd Introduccion/
+    2  mkdir 20230605-PaulJhefryHuamanGuia    3  cd 20230605-PaulJhefryHuamanGuia/  
+    4  git init
+    5  git remote add origin https://github.com/pjhuamang/20230605-PaulJhefryHuamanGuia.git
+    6  touch comandos.txt main.js index.html
+    7  git add .
+    8  git commit -m "01 commit de PaulJhefryHuamanGuia"
+    9  git push origin main
+   10  git branch feature
+   11  git checkout feature
+   12  mkdir Hardware Software SeguridadInformatica
+   13  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resument.txt
+   14  git add .
+   15  git commit -m "02 commit de PaulJhefryHuamanGuia"
+   16  git push origin feature
+   17  git checkout main
+   18  mv main.js resumenHardware.txt     
+   19  mv index.html resumenSoftware.txt  
+   20  nano resumenSoftware.txt
+   21  nano resumenHardware.txt
+   22  history
+Luego se hara
+   23  git add .
+   24  git commit -m "03 commit de PaulJhefryHuamanGuia"
+   25  git push origin main
